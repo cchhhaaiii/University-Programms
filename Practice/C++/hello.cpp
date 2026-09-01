@@ -1,17 +1,17 @@
-//C++
 #include <iostream>
 using namespace std;
 
 int main() {
-    char choice;
-    string name;
-    do {
-    cout << "Enter name to be greeted: ";
-    getline(cin, name);
-    cout << "Hello, " << name << "!" << endl;
-    cout << "\nDo you want to greet another person? (y/n): ";
-    cin >> choice;
-    cin.ignore();
-} while (choice == 'y' || choice == 'Y');
+    int arr[] = {12, 45, 7, 89, 23, 56};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int maxVal = arr[0];
+
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > maxVal) {
+            maxVal = arr[i];
+        }
+    }
+
+    cout << "Maximum number is: " << maxVal << endl;
     return 0;
 }
