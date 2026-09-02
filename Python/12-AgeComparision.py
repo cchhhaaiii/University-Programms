@@ -1,0 +1,1 @@
+#take the ages of two people and using comp

@@ -1,0 +1,5 @@
+name = (input("Enter your name: "))
+age = int(input("Enter your age: "))
+city = (input("Enter your city: "))
+college = (input("Enter your college name: "))
+print("Name:", name, "\nAge:", age, "\nCity:", city, "\nCollege:", college)
