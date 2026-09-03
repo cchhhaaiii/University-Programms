@@ -1,4 +1,3 @@
-//2-3 array from user input and display the elements of the array in a matrix using setw
 #include <iostream>
 #include <iomanip>
 using namespace std;
