@@ -23,7 +23,7 @@ int main() {
         }
     }
 
-    cout << "Result: ";
+    cout << "Result: \n";
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             cout << sum[i][j] << " ";
