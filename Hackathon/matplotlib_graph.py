@@ -10,6 +10,10 @@ linestyle =  dict (marker='.',
                         linestyle="dotted",
                             linewidth=2,
                                 color="green")
+plt.grid(axis="both", color="black",linestyle="--")
+plt.title("Chocolate Sales", color="brown")
+plt.xlabel("Chocolates", color="Orange")
+plt.ylabel("Sales", color="Blue")
 plt.plot(x, y1, **linestyle)
 plt.plot(x, y2, **linestyle)
 plt.show()
