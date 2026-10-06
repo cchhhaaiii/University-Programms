@@ -9,7 +9,8 @@ int main() {
 
     if (n < 0) {
         cout << "Error: " << endl;
-    } else {
+    } 
+    else {
         for (int i = 1; i <= n; ++i) {
             f = f * i;
         }

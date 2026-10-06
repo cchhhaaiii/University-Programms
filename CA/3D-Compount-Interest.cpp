@@ -12,5 +12,3 @@ int main (){
     cout<<"The Compound Interest is :" << compoundinterest(p);
     return 0;
 }   
-
-
