@@ -1,0 +1,10 @@
+marks=[90, 99, 82, 70]
+print(marks)
+print(type(marks))
+grades = ("A", "B", "C", "U")
+print(grades)
+print(type(grades))
+marks.remove(99)
+print(marks)
+marks.append(54)
+print(marks)
