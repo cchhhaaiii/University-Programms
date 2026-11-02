@@ -33,7 +33,7 @@ public:
     }
 };
 
-int main() {
+int main() {  
     Counter c(5);
 
     cout << "Initial value: ";

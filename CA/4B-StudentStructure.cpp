@@ -15,7 +15,7 @@ int main() {
     cin >> n;
 
     for (int i = 0; i < n; i++) {
-        cout <<9 "Student " << i + 1 << " (Name, RegNo, Marks): ";
+        cout << "Student" << i + 1 << " (Name, RegNo, Marks): ";
         cin >> s[i].name >> s[i].reg >> s[i].totm;
     }
 
