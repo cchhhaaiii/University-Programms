@@ -14,10 +14,6 @@ public:
         cout << "Parameterized constructor called\n";
     }
 
-    Box(const Box& other) : length(other.length), width(other.width), height(other.height) {
-        cout << "Copy constructor called\n";
-    }
-
     void display() const {
         cout << "Dimensions: " << length << "x" << width << "x" << height 
              << " | Volume: " << length * width * height << "\n";
